@@ -11,8 +11,8 @@ using TodosBackEnd.Data;
 namespace TodosBackEnd.Migrations
 {
     [DbContext(typeof(TodosDbContext))]
-    [Migration("20230607155310_init-todos")]
-    partial class inittodos
+    [Migration("20230609111602_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

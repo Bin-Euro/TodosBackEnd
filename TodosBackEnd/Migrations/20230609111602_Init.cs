@@ -7,7 +7,7 @@
 namespace TodosBackEnd.Migrations
 {
     /// <inheritdoc />
-    public partial class inittodos : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
